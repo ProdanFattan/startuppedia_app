@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SearchForm from "../components/SearchForm";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           Submit your startup ideas, Vote on Pitches, and Get your Startup
           noticed by the world
         </p>
+        <SearchForm/>
       </section>
     </>
   );
